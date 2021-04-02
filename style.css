@@ -63,6 +63,8 @@
 /* Avator badge */
 .avatar-badge{
     position: relative;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .badge{
     border-radius: 50%;
@@ -93,6 +95,7 @@
 /* Icon badge */
 .icon-div{
     position: relative;
+    
 }
 .icon-count{
 border-radius: 50%;
@@ -294,6 +297,7 @@ input{
     font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .nav-list{
    display: flex; 

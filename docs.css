@@ -8,7 +8,7 @@
   
   iframe {
     width: 100% !important;
-    min-height: 40vh !important;
+    min-height: 40vh ;
     border: 0;
     transform: scale(1);
     overflow: hidden;
@@ -16,12 +16,11 @@
   }
 body{
     display: grid;
-    grid-template-rows: 1fr 20fr 1fr ;
+    grid-template-rows: 8.6rem 20fr ;
 }
 nav{
     border: 1px solid black;
 }
-
 main{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -29,10 +28,34 @@ main{
 .sidebar{
     border: 1px solid black;
 }
+.sidebar-item{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-left: 1.6rem;
+    list-style: none;
+    cursor: pointer;
+}
 .components{
     border: 1px solid black;
-}
-footer{
-    border: 1px solid black;
+    position: relative;
+
 }
 
+.div-it{
+    margin-bottom: 2.5rem;
+}
+.avatar-div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sub-cont{
+    display: flex;
+    justify-content: baseline;
+}
+.code{
+    display: flex;
+}
