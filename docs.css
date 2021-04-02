@@ -7,7 +7,7 @@
   }
   
   iframe {
-    width: 100% !important;
+    width: 85% !important;
     min-height: 40vh ;
     border: 0;
     transform: scale(1);
@@ -43,22 +43,19 @@ a{
 .components{
     border: 1px solid black;
     position: relative;
+    padding: 2rem;
 
 }
 
-.div-it{
+
+.div-ch{
     margin-bottom: 2.5rem;
 }
-.avatar-div{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 .sub-cont{
     display: flex;
-    justify-content: baseline;
+    justify-content: space-around;
+    width: 85%;
 }
 .code{
     display: flex;
